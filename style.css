@@ -1,0 +1,483 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background: #000;
+}
+a{
+    text-decoration: none;
+    color: #Fff;
+    font-family: "Myriad Pro";
+}
+main{
+    width: 1000px;
+    background: #fff;
+    margin: 0px auto;
+}
+.head{
+    width: 1000px;
+    height: 159px;
+    background: url(../images/headerbg.jpg) no-repeat;
+}
+.logo{
+    float: left;
+    width: 173px;
+    margin: 20px 0px 0px 38px;
+}
+.headcontent{
+    width: 215px;
+    background: url(../images/topcontactbg.png) no-repeat;
+    float: right;
+    font-size: 18px;
+    color: #fff;
+    font-weight: lighter;
+    margin: 25px 25px 0px 0px;
+    padding: 12px 54px 0px 18px;
+    font-family: "Myriad Pro";
+}
+.websitename{
+    margin-bottom: 6px;
+    height: 28px;
+    border-bottom: 1px dotted #085b92;
+}
+
+.websitename img{
+    float: left;
+    margin-top: 2px;
+}
+
+.websitename a{
+    float: left;
+    margin: -3px 0px 0px 5px;
+}
+
+nav{
+    height: 43px;
+    border-bottom: 3px solid #Fff;
+    background: url(../images/menubg.jpg) repeat-x;
+}
+nav ul{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+nav ul li{
+    border-right: 1px solid #2966ab;
+    margin: 0px 0px 0px -4px;
+    padding: 0px;
+}
+nav ul li a{
+    margin: 0px;
+    font-size: 14px;
+    padding: 13px 18px;
+    float: left;
+}
+nav li a:hover{
+    background: url(../images/menubg_hover.jpg) repeat-x;
+}
+.maincontent{
+    width: 1000px;
+    height: 290px;
+    margin: 0px auto;
+    border-bottom: 3px solid #fff;
+    background:  #2b77a0;
+}
+.leftdiv{
+    background: #fff;
+    float: left;
+    width: 198px;
+    height: 228px;
+    margin: 14px 0px 0px 23px;
+    padding: 17px;
+    box-shadow: #246284  0px 0px 11px 7px;
+
+}
+.courselist{
+    width: 198px;
+    height: 39px;
+    border-bottom: 1px dotted #cdcdcd;
+}
+.courselist img{
+    float: left;
+    margin-top: 9px;
+}
+.courselist a{
+   float: left;
+   font-size: 18px;
+   padding-top: 6px;
+   margin-left: 8px;
+   color: #286f95;
+}
+
+.rightdiv{
+    float: right;
+    width: 690px;
+    margin: 14px 23px 0px 0px;
+    box-shadow:  #246284  0px 0px 11px 7px;
+}
+.content{
+    background: #fff;
+    border: 1px solid #fff;
+    height: 279px;
+}
+.leftcontent{
+    margin: 12px 0px;
+    width: 231px;
+    float: left;
+    padding: 0px 15px 0px 23px;
+}
+.company{
+    font-size: 18px;
+    border-bottom: 1px solid #e0e0e0;
+    color: #747773;
+
+}
+.company a{
+    font-size: 18px;
+    margin-top: 4px;
+    color: #747773;
+    float: left;
+}
+.company span{
+    font-weight: bold;
+    color: #286f95;
+    margin-right: 5px;
+}
+.border1{
+    width: 20px;
+    padding: 1px 30px;
+    margin-top: 16px;
+    float: left;
+    border-bottom: 1px solid #c6c6c6;
+}
+.company img{
+    float: right;
+    margin-bottom: 6px;
+}
+.companylogo{
+    padding: 15px 0px;
+    text-align: center;
+    margin-bottom: 5px;
+    border-bottom: 1px solid #c6c6c6;
+}
+.website1{
+    height: 36px;
+    border-bottom: 1px dotted #c6c6c6;
+}
+.website1 img{
+    float: left;
+    margin-top: 5px;
+}
+.website1 a{
+    float: left;
+    margin: 6px 0px 0px 5px;
+     color: #6D6D6F;
+}
+.mail1{
+    height: 36px;
+    border-bottom: 1px dotted #c6c6c6;
+}
+.mail1 img{
+    float: left;
+    margin-top: 12px;
+}
+.mail1 a{
+    float: left;
+    margin: 10px 0px 0px 5px;
+    color: #6D6D6F;
+}
+.tele{
+    height: 36px;
+    
+}
+.tele img{
+    float: left;
+    margin-top: 12px;
+}
+.tele a{
+    float: left;
+    margin: 10px 0px 0px 5px;
+    color: #6D6D6F;
+}
+.rightcontent{
+    float: left;
+    width: 675px;
+    margin-top: 7px;
+    border-left: 1px solid #dddddd;
+    padding: 0px 25px 7px 25px;
+}
+.desc{
+    font-size: 18px;
+    color: #747773;
+    padding: 10px 0px 14px 0px;
+    border-bottom: 1px solid #e0e0e0;
+}
+.desc a{
+    font-size: 18px;
+    margin-top: 4px;
+    color: #747773;
+}
+.desc span{
+    font-weight: bold;
+    color: #286f95;
+}
+.lorem{
+    font-size: 12px;
+    padding-top: 15px;
+    text-align: justify;
+    font-family: "Myriad Pro Light" ;
+    color: #818181;
+}
+.fottop{
+    width: 960px;
+    margin: 0px auto;
+    height: 179px;
+    padding: 20px;
+    background: url(../images/footerbg.jpg) no-repeat;
+}
+.quick{
+    width: 286px;
+    padding: 0px 25px 25px 0px;
+    float: left;
+    border-right: 1px solid #0f506c;
+
+}
+.links{
+    color: #fff;
+    font-family: "Myriad Pro Light";
+    font-size: 18px;
+    padding-bottom: 10px;
+    border-bottom: 1px dotted #3287af;
+}
+.quicklist ul{
+    margin: 0px;
+    padding: 0px;
+}
+.quicklist ul li{
+    margin: 15px 3px 0px 0px;
+    padding: 0px;
+    float: left;
+    width: 140px;
+    list-style: none;
+    
+}
+.quicklist li img{
+    float: left;
+}
+.quicklist li a{
+    padding: 0px;
+    font-size: 12px;
+    font-family: Verdana;
+    float: left;
+    margin: 0px 0px 0px 5px;
+}
+.service{
+    width: 286px;
+    padding: 0px 25px 25px 25px;
+    float: left;
+    border-right: 1px solid #0f506c;
+
+}
+
+.service ul{
+    margin: 0px;
+    padding: 0px;
+}
+.service ul li{
+    margin: 15px 3px 0px 0px;
+    padding: 0px;
+    float: left;
+    width: 140px;
+    list-style: none;
+    
+}
+.service li img{
+    float: left;
+}
+.service li a{
+    padding: 0px;
+    font-size: 12px;
+    font-family: Verdana;
+    float: left;
+    margin: 0px 0px 0px 5px;
+}
+.location{
+    width: 285px;
+    padding: 0px 0px 25px 25px;
+    float: left;
+    border-right: 1px solid #0f506c;
+}
+.locatext{
+    font-family: "Myriad Pro";
+    font-style: italic;
+    font-size: 12px;
+    padding: 15px 0px 20px 0px;
+    text-align: justify;
+    border-bottom: 1px solid #0d4964;
+    color: #3aa4d2;
+}
+.locatext span{
+    float: right;
+    margin: 5px 10px 0px 0px ;
+}
+.sociallinks{
+    margin-top: 14px;
+}
+.follow{
+    font-style: italic;
+    font-size: 18px;
+    width: 70px;
+    padding: 8px 10px;
+    float: left;
+    margin-left: 10px;
+    color: #4cb8e8;
+    font-family: "Myriad Pro";
+    box-shadow: 1px 1px 15px #0000;
+
+}
+.sociallinks span img{
+    float: left;
+}
+.social{
+  float: left;
+  width: 142px;
+  height: 46px;
+  text-align: right;
+  padding-right: 18px;
+  margin-left: 5px;
+  background: url(../images/my.png) no-repeat;
+
+}
+.social img{
+    margin-top: 10px;
+}
+.fotbottom{
+    width: 960px;
+    margin: 0px auto;
+    padding: 15px 20px;
+    font-family: Arial;
+    font-size: 12px;
+    color: #fff;
+    border-top: 1px dotted #3287af;
+    background: #033a53;
+}
+.fotbottom span{
+    float: right;
+}
+.main{
+    width: 1000px;
+    height: 609px;
+}
+.maincontent1{
+    width: 280px;
+    margin: 0px;
+    border: 0px #FF00FF solid;
+    background: #2b77a0;
+    border-bottom: 3px #fff solid;
+    height: 603px;
+}
+.leftdiv1{
+    background: #fff;
+    width: 198px;
+    height: 228px;
+    margin: 14px 0px 14px 23px;
+    padding: 17px;
+    box-shadow: #246284 0px 0px 11px 7px;
+
+}
+.leftcontent1{
+    background: #fff;
+    float: left;
+    width: 202px;
+    margin: 14px 0px 14px 23px;
+    padding: 15px;
+    box-shadow: #246284 0px 0px 11px 7px;
+
+}
+.rightdiv1{
+    float: left;
+    padding: 0px 22px 7px 22px;
+    width: 675px;
+}
+.desc1{
+    font-size: 18px;
+    color: #747773;
+    padding: 10px 0px 14px 0px ;
+    border-bottom: 1px solid #e0e0e0;
+
+}
+.desc1 a{
+    font-size: 18px;
+    color: #747773;
+    margin-top: 4px;
+}
+.desc1 span{
+    font-weight: bold;
+    color: #286f95;
+    
+}
+.mainwebcontent{
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    line-height: 29px;
+    margin: 15px 0px;
+    color: #5b5b5b;
+}
+.mainwebcontent a{
+    color: #5b5b5b;
+}
+.galleryimgdiv{
+    width: 200px;
+    margin: 0px 12px 20px 12px;
+    float: left;
+}
+.mainwebcontent1{
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    line-height: 20px;
+    margin: 15px 0px;
+    color: #5b5b5b;
+}
+.formrow {
+    margin-bottom: 20px;
+}
+
+.formlable {
+    float: left;
+    width: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+
+.inputbox {
+    width: 200px;
+    border: #5b5b5b 1px solid;
+    height: 20px;
+    color: #5b5b5b;
+}
+
+.inputform {
+    font-size: 12px;
+}
+
+.textarea {
+    width: 200px;
+    border: #5b5b5b 1px solid;
+    height: 50px;
+    color: #5b5b5b;
+    resize: none;
+}
+
+.button {
+    background: #09F;
+    border: none;
+    color: #FFF;
+    padding: 10px 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 10px;
+    margin: 0px auto;
+    cursor: pointer;
+}
